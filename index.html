@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sudoku!</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+        <!-- -------------------1 sheet------------------------------ -->
+        <div id='sheet1' class='sheet_1_2'>
+            <h1 class="center">SUDOKU</h1>
+            <input id='userName' type='text' class='userInput' placeholder='User Name'>
+            <p id='nameError'></p>
+            <input id='userPassword' type='password' class='userInput' placeholder='Password'>
+            <p id='passwordError'></p>
+            <button onclick='checkUserName()' id='butEnterSheet1'>Enter</button>
+        </div>
+    
+        <!-- --------------------2 sheet----------------------------- -->
+        <div id='sheet2' class='hidden'>
+            <h1>Welcome abcd</h1>
+            <p>Level difficulty</p>
+            <div id='button'>
+                <button id='lev1' onclick ='userSelectLevelAndStartGame(1)' class='buttonLevel'>1</button>
+                <button id='lev2' onclick ='userSelectLevelAndStartGame(2)' class='buttonLevel'>2</button>
+                <button id='lev3' onclick ='userSelectLevelAndStartGame(3)' class='buttonLevel'>3</button>
+            </div>
+        </div>
+        
+    <!-- ----------------------3 sheet--------------------------------- -->
+    <div id="board" class="hidden">
+    </div>    
+    <div id="finHintBtnContainer" class="hidden">
+        <input type="button" class="hidden" id='finBtn' onclick="finsihBtn()" value="Finish">
+        <input type="button" class="hidden" id='hintBtn' onclick="hint()" value="Hint Please">
+        <input type="button" class="hidden" id='againBtn' onclick="againBtn()" value="Again">
+        <p id="numOfHints" class="hidden"></p>
+    <input type="button" class="hidden" id='MakiKaji' onclick="MakiKaji()" value="R.I.P Maki Kaji">
+    </div>
+    
+    
+
+    <script src='script.js'></script>
+</body>
+</html>

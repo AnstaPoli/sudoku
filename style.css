@@ -1,0 +1,109 @@
+body,center {
+    justify-content: center;
+    text-align: center;
+}
+.sheet_1_2{
+    
+    width: 600px;
+    height: 500px;
+    border-style: double;
+   margin-left: 400px;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+  flex-direction: column;
+   background-color: #f8f6ee; 
+   
+}
+.userInput{
+    margin: 20px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+}
+#butEnterSheet1{
+    height: 30px;
+    width: 100px;
+    background-color: cadetblue;
+    font-size: 20px;
+}
+h1,p{
+    text-shadow: 1px 1px blueviolet;
+
+}
+/**************************************************************/
+.hidden{
+    display: none;
+}
+#sheet2{
+    
+    justify-content: center;
+}
+#button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.buttonLevel{
+    width: 70px;
+    height: 70px;
+    margin: 20px;
+    font-size: 30px;
+    background-color:grey;
+}
+
+#hintBtn, #finBtn,#againBtn{
+    width: 150px;
+    height: 70px;
+    margin: 20px;
+    font-size: 20px;
+    background-color:grey;
+
+}
+#MakiKaji{
+    width: 250px;
+    height: 70px;
+    margin: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+
+}
+
+#board , #finHintBtnContainer {
+    margin-left: 400px;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+.hint{
+    color: orange;
+}
+.error {
+    background-color: red;
+}
+
+.gameTiles{
+    border: 1px solid gray;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px auto;
+    vertical-align: middle;
+    font-size: 40pt;
+    
+    
+    
+}
+.rightBorder{
+    border-right: 4px solid black;
+}
+
+.bottomBorder {
+    border-bottom: 4px solid black;
+}
